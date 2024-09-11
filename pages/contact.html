@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DayZ</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="../Img/logo.png" alt="DayZ logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Principal</a>
+                </li>
+                <li>
+                    <a href="../pages/play.html">Jugar</a>
+                </li>
+                <li>
+                    <a href="../pages/servers.html">Servidores</a>
+                </li>
+                <li>
+                    <a href="../pages/guide.html">Guia</a>
+                </li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main>
+        <h2>Si queres reportar algun bug o necesitas contactarnos por alguna otra razón completa el formulario y te contactaremos a tu mail.</h2>
+        <form action="">
+            <div>
+                <label for="name">Escribe tu nombre</label>
+                <input type="text" name="name" placeholder="Juan">
+            </div>
+            <br>
+            <div>
+                <label for="surname">Escribe tu apellido</label>
+                <input type="text" name="surname" placeholder="Perez">
+            </div>
+            <br>
+            <div>
+                <label for="email">Escribe tu mail</label>
+                <input type="email" name="email" placeholder="juanperez@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="pais">Selecciona tu pais</label>
+                <select name="pais" id="">
+                    <option value="null">Seleccionar</option>
+                    <option value="arg">Argentina</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="cl">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="genero">Selecciona tu genero</label>
+                <input type="radio" name="genero" value="muj"> Mujer
+                <input type="radio" name="genero" value="hom">Hombre
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Escribe tus comentarios</label>
+                <br>
+                <textarea name="comentarios" id="" placeholder="Escribe aqui" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="terminos" required>Acepto los terminos y condiciones
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="enviar datos">
+                <input type="reset" value="borrar campos">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <h3>
+            DayZ es un videojuego desarrollado por Bohemia Interactive
+        </h3>
+        <div>
+            <a href="http://www.bohemia.net" target="_blank"><img src="../Img/bohemia logo.jpg" width="200px" alt="Página oficial de Bohemia Interactive"></a>
+        </div>
+    </footer>
+</body>
+</html>
