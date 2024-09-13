@@ -101,3 +101,16 @@ h3 {
                 -webkit-overflow-scrolling: touch;
             }
         }
+.nav-link{
+    background-color:#494747;
+}
+.navbar-nav .nav-link:hover{
+    background-color: red;
+    color: #000000;
+}
+.navbar-toggler{
+    background-color:#494747;
+}
+.navbar-toggler:hover{
+    background-color: red;
+}
