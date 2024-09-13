@@ -114,3 +114,6 @@ h3 {
 .navbar-toggler:hover{
     background-color: red;
 }
+.navbar-nav .nav-link.active {
+    background-color: red !important;
+}
