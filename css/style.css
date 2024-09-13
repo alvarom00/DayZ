@@ -60,9 +60,10 @@ h3 {
 }
 .guide-section {
     margin-bottom: 20px;
+    font-size: 1.3rem;
 }
 .guide-section h2 {
-    border-bottom: 2px solid #666;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
 }
 .guide-section p {
@@ -74,6 +75,7 @@ h3 {
 }
 .guide-section ul li {
     margin-bottom: 5px;
+    font:bolder;
 }
 .formulario{
     width: 100%;
