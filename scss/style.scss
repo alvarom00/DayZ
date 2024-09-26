@@ -105,8 +105,9 @@ body {
                     -webkit-overflow-scrolling: touch;
                 }
                 .card {
-                    flex: 1 1 100%;
-                    max-width: none;
+                    flex: 1 1 auto;
+                    max-width: 100%;
+                    margin 0 0 15px;
                 }
                 .gridPadre {
                     grid-template-columns: 1fr;
