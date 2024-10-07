@@ -1,0 +1,43 @@
+@import 'variables';
+
+nav{
+    ul{
+        list-style-type: none;
+        li{
+            margin: 20px;
+            display: inline-block;
+            a{
+                color: black;
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-decoration: none;
+                border: 2px solid black;
+                background-color: gray;
+                text-align: center;
+            }
+        }
+    }
+    .navbar-nav{
+        .nav-link{
+            background-color:#494747;
+            &:hover{
+                background-color: $hover-color;
+                color: #000000;
+            }
+            &.active {
+                background-color: $hover-color !important;
+            }
+        }
+    }
+    .navbar-toggler{
+        background-color:#494747;
+        &:hover{
+            background-color: $hover-color;
+        }
+    }
+} 
+.logo{
+    width: 300px;
+    height: auto;
+    display: block;
+}
