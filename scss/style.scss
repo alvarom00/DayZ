@@ -1,5 +1,6 @@
-$bg-color:#494747;
-$hover-color:red;
+@import 'variables';
+@import 'buttons';
+
 *{
     padding: 0;
     margin: 0;
@@ -16,42 +17,6 @@ body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        nav{
-            ul{
-                list-style-type: none;
-                li{
-                    margin: 20px;
-                    display: inline-block;
-                    a{
-                        color: black;
-                        font-size: 1.2rem;
-                        font-weight: bold;
-                        text-decoration: none;
-                        border: 2px solid black;
-                        background-color: gray;
-                        text-align: center;
-                    }
-                }
-            }
-            .navbar-nav{
-                .nav-link{
-                    background-color:#494747;
-                    &:hover{
-                        background-color: $hover-color;
-                        color: #000000;
-                    }
-                    &.active {
-                        background-color: $hover-color !important;
-                    }
-                }
-            }
-            .navbar-toggler{
-                background-color:#494747;
-                &:hover{
-                    background-color: $hover-color;
-                }
-            }
-        } 
         .logo{
             width: 300px;
             height: auto;
@@ -62,9 +27,13 @@ body {
         background-color: $bg-color;
         table{
             font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             th{
-                font: bold;
+                font-weight: bold;
             }
+
         }
         h1, h2 {
             text-align: center;
@@ -107,7 +76,7 @@ body {
                 .card {
                     flex: 1 1 auto;
                     max-width: 100%;
-                    margin 0 0 15px;
+                    margin: 0 0 15px;
                 }
                 .gridPadre {
                     grid-template-columns: 1fr;
@@ -116,10 +85,18 @@ body {
     }
     footer{
         background-color: $bg-color;
+        display: flex;
+        flex-direction: column;
         p{
             color: black;
             margin: 30px;
-            font: bolder;
+            font-weight: bolder;
+        }
+        .logos{
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
         }
     }
     .container{
